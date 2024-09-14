@@ -24,5 +24,8 @@ public class Base
 	public void testmethod() {
 		
 	}
+	public void testmethod2() {
+		
+	}
 	
 }
