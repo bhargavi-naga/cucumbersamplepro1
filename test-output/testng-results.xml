@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-09T20:21:06 IST" name="Default suite" finished-at="2024-09-09T20:21:18 IST" duration-ms="11063">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:BDDRunner.BDDRunnerfile@4e406694]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-09-09T20:21:06 IST" name="Default test" finished-at="2024-09-09T20:21:18 IST" duration-ms="11063">
+      <class name="BDDRunner.BDDRunnerfile">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:BDDRunner.BDDRunnerfile@4e406694]" started-at="2024-09-09T20:21:07 IST" name="setUpClass" finished-at="2024-09-09T20:21:08 IST" duration-ms="1957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d19ddeb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:BDDRunner.BDDRunnerfile@4e406694]" started-at="2024-09-09T20:21:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-09T20:21:14 IST" duration-ms="5006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login with multiple user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:BDDRunner.BDDRunnerfile@4e406694]" started-at="2024-09-09T20:21:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-09T20:21:17 IST" duration-ms="3105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login with multiple user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:BDDRunner.BDDRunnerfile@4e406694]" started-at="2024-09-09T20:21:17 IST" name="tearDownClass" finished-at="2024-09-09T20:21:18 IST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- BDDRunner.BDDRunnerfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
