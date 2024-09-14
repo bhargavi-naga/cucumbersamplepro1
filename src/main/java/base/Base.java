@@ -21,5 +21,11 @@ public class Base
 		
 		Driver.close();
 	}
+	public void testmethod() {
+		
+	}
+	public void testmethod2() {
+		
+	}
 	
 }
